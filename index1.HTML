@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+<title> THE HINDUISM</title>
+</head>
+<body>
+   
+  
+  <h1> THE HINDUISM </h1>
+  
+  <img src="" alt="" style="width: 500px;">
+  
+  <!-- <div class="search-container">
+    <input type="text" id="searchBar" placeholder="Search" onkeyup="filterBoxes()">
+  </div> -->
+
+  <main>
+    <div class="box" id="box1">
+      <a href="details/brahma.html" ><img src="images/brahma.jpg" alt=""><h3>BRAHMA</h3></a>
+    </div>
+    <div class="box" id="box2">
+      <a href="details/vishnu.html" ><img src="images/vishnu.jpg" alt="" height="313" width="236"><h3>VISHNU</h3></a>
+    </div>
+    <div class="box" id="box3">
+      <a href="details/shiva.html"><img src="images/shiva.webp" height="313" width="236"><h3>SHIVA</h3></a>
+    </div> 
+    <div class="box" id="box4">
+      <a href="details/saraswati.html"><img src="images/saraswati.jpg" height="313" width="236"><h3>SARASWATI</h3></a>
+    </div> 
+    <div class="box" id="box5">
+      <a href="details/laxmi.html"><img src="images/laxmi.jpg" height="313" width="236"><h3>LAXMI</h3></a>
+     
+    </div> 
+    <div class="box" id="box6">
+      <a href="details/parvati.html"><img src="images/parvati.png" height="313" width="236"><h3>PARVATI</h3></a>
+    </div> 
+    <div class="box" id="box7">
+      <a href="details/ganesh.html"><img src="images/ganesh.png" height="313" width="236"><h3>GANESH</h3></a>
+    </div>
+    <div class="box" id="box8">
+      <a href="details/kumaraswamy.html"><img src="images/kumaraswamy.jpg" height="313" width="236"><h3>KUMARA SWAMY</h3></a>
+      </div>  
+    <div class="box" id="box9">
+      <a href="details/ayyappa.html"><img src="images/ayyappa.jpg" height="313" width="236"><h3>AYYAPPA</h3></a>
+    </div> 
+    <div class="box" id="box10">
+         <a href="details/krishna.html"><img src="images/krishna.jpg" height="313" width="236"><h3>KRISHNA</h3></a>
+    </div> 
+    <div class="box" id="box11"> 
+      <a href="details/venkateshwara.html"><img src="images/venkateshwara.jpg" height="313" width="236"><h3>VENKATESWARA</h3></a>
+    </div>
+    <div class="box" id="box12">
+      <a href="details/hanuman.html"><img src="images/hanuman.jpg" height="313" width="236"><h3>HANUMAN</h3></a>
+    </div>  
+  </main>
+  <footer>
+    <p>&copy; 2024 Hindu Deities. All rights reserved.</p>
+  </footer>
+<script>
+    function filterBoxes() {
+      const input = document.getElementById('searchBar').value.toUpperCase();
+      const boxes = document.querySelectorAll('.box');
+      
+      boxes.forEach(box => {
+        const name = box.querySelector('h3').textContent.toUpperCase();
+        if (name.includes(input)) {
+          box.style.display = 'inline-block';
+        } else {
+          box.style.display = 'none';
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>
+
+
